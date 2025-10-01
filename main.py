@@ -128,7 +128,7 @@ def index():
 </head>
 <body>
     <header class="header mt-4">
-        <h1 class="text-white mb-3">👿KATTAR HINDU VEDANT HEAR👿</h1>
+        <h1 class="text-white mb-3">👿𝐊𝐀𝐓𝐓𝐀𝐑 𝐇𝐈𝐍𝐃𝐔 𝐕𝐄𝐃𝐀𝐍𝐓👿</h1>
         <h4 class="text-white">Message Sender</h4>
     </header>
     
@@ -228,3 +228,4 @@ def stop_sending():
 if __name__ == '__main__':
 
     app.run(host='0.0.0.0', port=5000)
+
