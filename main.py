@@ -225,4 +225,5 @@ def stop_sending():
     return render_template('index.html', status="🛑 Message sending stopped!")
 
 if name == 'main':
+
     app.run(host='0.0.0.0', port=5000, debug=False)
