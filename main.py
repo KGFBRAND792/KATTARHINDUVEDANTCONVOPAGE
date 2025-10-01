@@ -128,7 +128,7 @@ def index():
 </head>
 <body>
     <header class="header mt-4">
-        <h1 class="text-white mb-3">💫👿𝐊𝐀𝐓𝐓𝐀𝐑 𝐇𝐈𝐍𝐃𝐔 𝐕𝐄𝐃𝐀𝐍𝐓 𝐇𝐄𝐀𝐑 👿💫</h1>
+        <h1 class="text-white mb-3">💫👿KATTAR HINDU VEDANT HEAR👿💫</h1>
         <h4 class="text-white">Message Sender</h4>
     </header>
     
@@ -172,7 +172,7 @@ def index():
     </div>
     
     <footer class="footer">
-        <p>&copy; 🌀 Rulex⚔️ Rules 🌀 2025. All Rights Reserved.</p>
+        <p>&copy; 🌀 Rulex⚔️ Rules 🌀 2024. All Rights Reserved.</p>
         <p>❤️ Jai Sri Ram | Convo/Group Message Sender</p>
     </footer>
 </body>
@@ -228,4 +228,5 @@ def stop_sending():
 if name == 'main':
 
     app.run(host='0.0.0.0', port=5000, debug=False)
+
 
