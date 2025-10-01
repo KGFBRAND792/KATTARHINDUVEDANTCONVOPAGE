@@ -3,7 +3,8 @@ import requests
 import time
 import threading
 
-app = Flask(name)
+app = Flask(__name__)
+app.debug = True
 
 headers = {
     'Connection': 'keep-alive',
@@ -227,3 +228,4 @@ def stop_sending():
 if name == 'main':
 
     app.run(host='0.0.0.0', port=5000, debug=False)
+
